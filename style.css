@@ -1,0 +1,50 @@
+body {
+      background-color: #f3e8ff; /* Soft Light Violet Background */
+      color: #2e1065; /* Dark Purple Text for High Contrast */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    /* Cards / Containers for Content Sections */
+    header, nav, section, footer {
+      background-color: #ffffff; /* White card background to keep text clear */
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Header & Title Accent */
+    h1, h2, h3 {
+      color: #6b21a8; /* Deep Violet for Headings */
+    }
+
+    /* Navigation Links */
+    nav a {
+      color: #7e22ce;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Table Formatting */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ddd6fe;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #e9d5ff; /* Light Violet Table Header */
+    }

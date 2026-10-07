@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jamilla's Personal Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Jamilla's Personal Diary</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#entries">Diary Entries</a>
+    <a href="#mood-tracker">Mood Tracker</a>
+    <a href="#contact">Leave a Note</a>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I am Jamilla Bautista. Welcome to my personal diary, where I document my daily chikas and rants in life</p>
+    <img src="img/profile.jpeg" alt="A very tired girlie">
+    <section id="entries">
+      <h2>Recent Entries</h2>
+      <article>
+        <h3>A Productive and Tiring Day!</h3>
+        <p>Today was busy with classes, I am very stressed with my tasks and also with everything!</p>
+      </article>
+    </section>
+
+    <section id="mood-tracker">
+      <h2>Weekly Mood & Productivity Log</h2>
+      <table>
+        <caption>Weekly Reflection Log</caption>
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Primary Mood</th>
+            <th scope="col">Productivity Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Monday</th>
+            <td>Tired</td>
+            <td>Drained</td>>
+          </tr>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td>Pressured</td>
+            <td>Stressed</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Leave a Note</h2>
+      <p>Want to send a private message or note to my diary?</p>
+
+      <form action="/submit-note" method="post">
+        <div>
+          <label for="sender-name">Your Name:</label>
+          <input type="text" id="sender-name" name="sender-name" required>
+        </div>
+
+        <div>
+          <label for="sender-email">Your Email:</label>
+          <input type="email" id="sender-email" name="sender-email" required>
+        </div>
+
+        <div>
+          <label for="note-message">Your Message:</label>
+          <textarea id="note-message" name="note-message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Send Note</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Jamilla Bautista.</p>
+  </footer>
+
+</body>
+</html>
